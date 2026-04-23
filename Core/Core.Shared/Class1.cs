@@ -1,4 +1,4 @@
-﻿namespace CustomizeBtoB
+﻿namespace Core.Shared
 {
     public class Class1
     {
