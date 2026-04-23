@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="../../Core/Core.Presentation.WPF/Core.Presentation.WPF.csproj" />
+    <Project Path="../../Core/Core.Shared/Core.Shared.csproj" />
+  </Folder>
+  <Folder Name="/Core/Modules/">
+    <Project Path="../../Core/Modules/Core.Modules.HR/Core.Modules.HR.csproj" />
+    <Project Path="../../Core/Modules/Core.Modules.Payroll/Core.Modules.Payroll.csproj" />
+    <Project Path="../../Core/Modules/Core.Modules.Sales/Core.Modules.Sales.csproj" />
+  </Folder>
+  <Project Path="../../Customers/CompanyA/CompanyA.Presentation.WPF/CompanyA.Presentation.WPF.csproj" />
+</Solution>
