@@ -16,6 +16,6 @@
     <Project Path="Customers/CompanyB/CompanyB.Presentation.WPF/CompanyB.Presentation.WPF.csproj" />
   </Folder>
   <Folder Name="/Customers/CompanyC/">
-    <Project Path="Customers/CompanyC/CompanyA.Presentation.WPF/CompanyA.Presentation.WPF.csproj" Id="c05f113f-5a15-4091-a087-2c94808684a7" />
+    <Project Path="Customers/CompanyC/CompanyC.Presentation.WPF/CompanyC.Presentation.WPF.csproj" Id="13a14c7a-0329-40e8-90c9-014b2792cd7b" />
   </Folder>
 </Solution>
