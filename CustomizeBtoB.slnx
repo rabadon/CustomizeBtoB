@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Core.Presentation.WPF/Core.Presentation.WPF.csproj" />
+    <Project Path="Core.Shared/Core.Shared.csproj" Id="83484828-19d6-4dc4-8b18-ef233ee648d0" />
+  </Folder>
+  <Folder Name="/Core/Modules/">
+    <Project Path="Core.Billing/Core.Billing.csproj" Id="727e1086-3f45-40b2-8476-c5388dea07ca" />
+    <Project Path="Core.HR/Core.HR.csproj" Id="55166303-8960-493f-9073-d1a6efd350a1" />
+    <Project Path="Core.Payroll/Core.Payroll.csproj" Id="b640896f-bdb3-4a8d-a082-83418442fb85" />
+    <Project Path="Core.Sales/Core.Sales.csproj" Id="9b34f3f2-2438-4a11-9de9-2d1ff9f295eb" />
+  </Folder>
+  <Folder Name="/Customers/" />
+  <Folder Name="/Customers/CompanyA/">
+    <Project Path="CompanyA.Presentation.WPF/CompanyA.Presentation.WPF.csproj" />
+  </Folder>
+  <Folder Name="/Customers/CompanyB/">
+    <Project Path="CompanyB.Presentation.WPF/CompanyB.Presentation.WPF.csproj" />
+  </Folder>
+  <Folder Name="/Customers/CompanyC/">
+    <Project Path="CompnanyC.Presentation.WPF/CompnanyC.Presentation.WPF.csproj" Id="3cced69f-e19c-4f71-8acf-0dd32d587931" />
+  </Folder>
+</Solution>
