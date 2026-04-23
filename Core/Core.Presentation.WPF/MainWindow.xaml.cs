@@ -1,10 +1,8 @@
-﻿using System.Windows;
+using System.Windows;
+using Core.Presentation.WPF.HR.Views;
 
 namespace Core.Presentation.WPF
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -14,19 +12,22 @@ namespace Core.Presentation.WPF
 
         private void ExecuteMenu1(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Menu1");
+            MainContent.Content = new EmployeeView();
         }
+
         private void ExecuteMenu2(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Menu2");
+            MainContent.Content = new SalesView();
         }
+
         private void ExecuteMenu3(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Menu3");
+            MainContent.Content = new SalesView();
         }
+
         private void ExecuteMenu4(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Menu4");
+            MainContent.Content = new SalaryView();
         }
     }
 }
