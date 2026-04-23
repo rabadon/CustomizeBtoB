@@ -7,10 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Menu1" HorizontalAlignment="Left" Height="42" VerticalAlignment="Center" Width="152" Click="ExecuteMenu1" Margin="57,0,0,0" FontFamily="Noto Sans JP" FontSize="16"/>
-        <Button Content="Menu2" HorizontalAlignment="Left" Height="42" VerticalAlignment="Center" Width="152" Click="ExecuteMenu2" Margin="222,0,0,0" FontFamily="Noto Sans JP" FontSize="16"/>
-        <Button Content="Menu4" HorizontalAlignment="Left" Height="42" VerticalAlignment="Center" Width="152" Click="ExecuteMenu3" Margin="559,0,0,0" FontFamily="Noto Sans JP" FontSize="16"/>
-        <Button Content="Menu3" HorizontalAlignment="Left" Height="42" VerticalAlignment="Center" Width="152" Click="ExecuteMenu4" Margin="390,0,0,0" FontFamily="Noto Sans JP" FontSize="16"/>
-        <Label x:Name="ProductName" Content="共通メニューだよ" HorizontalAlignment="Center" Margin="0,55,0,0" VerticalAlignment="Top" Height="78" Width="426" FontSize="48" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Content="社員管理" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="152" Click="ExecuteMenu1" Margin="10,44,0,0" FontFamily="Noto Sans JP" FontSize="16"/>
+        <Button Content="売上管理" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="152" Click="ExecuteMenu2" Margin="10,92,0,0" FontFamily="Noto Sans JP" FontSize="16"/>
+        <Button Content="給与管理" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="152" Click="ExecuteMenu4" Margin="10,138,0,0" FontFamily="Noto Sans JP" FontSize="16"/>
     </Grid>
 </Window>
