@@ -1,4 +1,4 @@
-﻿namespace Core.Domain
+﻿namespace Core.Modules.HR
 {
     public class Class1
     {

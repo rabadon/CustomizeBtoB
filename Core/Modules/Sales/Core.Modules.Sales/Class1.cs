@@ -1,4 +1,4 @@
-﻿namespace Core.Billing
+﻿namespace Core.Modules.Sales
 {
     public class Class1
     {
